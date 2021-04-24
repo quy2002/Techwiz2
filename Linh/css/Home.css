@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.home-categories1{
+    border:0.5px solid black;
+    padding:5px;
+}
+.information-pro{
+    float: right;
+    margin-right: 50px;
+}
+#image-categories{
+    padding-top:30px;
+}
+
+.home-image-featured{
+    border: 0.5px solid black;
+}
+#home-client-say{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.home-images{
+    padding-bottom: 30px;
+}
+.home-box-service{
+    border:0.5px solid black;
+    padding: 5px;
+    text-align: center;
+}
+.home-box-service h5{
+    letter-spacing: 1px;
+}
+#icon-gift{
+    width: 50px;
+    border-radius: 50px;
+    height: 50px;
+    background-color: #f16fb5;
+    font-size: 30px;
+    color: white;
+    padding: 11px;
+}
+#icon-plane{
+    width: 50px;
+    border-radius: 50px;
+    height: 50px;
+    background-color: #6fc1f1;
+    font-size: 30px;
+    color: white;
+    padding: 11px;
+}
+#icon-record{
+    width: 50px;
+    border-radius: 50px;
+    height: 50px;
+    background-color: #f16f6f;
+    font-size: 30px;
+    color: white;
+    padding: 11px;
+}
+.title-box-clothes{
+    height: 50px;
+    font-size: 16px;
+    background-color: #f16fb5;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.list-products{
+    border: 1px solid #34c5ca;
+    background-color: #34c5ca;
+    width: auto;
+    height: 50px;
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    padding-top:15px;
+    padding-left: 10px;
+    margin-top:10px;
+}
+.img-product-home{
+    margin-bottom: 20px;
+}
+.home-title-product{
+    margin-top: 40px;
+}
+.pro-clothes{
+    border:0.5px solid black;
+    margin-top:60px;
+}
+.price-pro-home{
+    font-weight: bold;
+    color: #37c6cb;
+}
+.price-pro-home h5{
+    font-size: 17px;
+}

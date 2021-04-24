@@ -1,0 +1,41 @@
+*{
+    font-size: 14px;
+    background-color: #333;
+}
+p{
+    margin: 25px 50px 75px 100px;
+    overflow-x: hidden;
+    position: relative;
+    color: #666;
+    line-height: 165%;
+    font-size: 12px;
+}
+.cole-footer{
+    color: white;
+    font-size: 15px;
+}
+input{
+    color: black;
+    background-color: black;
+}
+ul .icons{
+    list-style-type: none;
+}
+.icons li{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+.icons i{
+    font-size: 20px;
+    color: #adadad;
+    transition: color 300ms;
+}
+.icons i:hover{
+    color: #e4b9c0;
+}
+.nganhang{
+    float: right;
+    padding-bottom: 10px;
+}
+
