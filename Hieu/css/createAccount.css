@@ -1,3 +1,7 @@
+*{
+    margin-bottom: 2%;
+    box-sizing: border-box;
+}
 .container p{
     font-size: 13px;
 }
@@ -8,6 +12,7 @@
     border: 1px solid #000000;
 }
 h2{
+    margin: -5% 0 0 1% ;
     text-align: center;
     width: 19%;
     height: auto;
@@ -16,10 +21,72 @@ h2{
     font-weight: 700;
     background-color: white;
 }
-.col-md-12{
-    width: 100%;
-    border:1px solid #d0cbcb;
+
+.lname{
+    margin: 2% 0 0 1% ;
+}
+h3{
+    font-size: 14px;
+    margin-left: 2%;
+    margin-bottom: 3%;
 }
 em{
     color: red;
+}
+.col-md-3{
+    margin: 2% 0 0 2%;
+}
+.full-box{
+    border: 1px solid #d0cbcb;
+    margin-top: 4%;
+    padding: 4% 0 0 0 ;
+}
+ .col-md-4 #idmail{
+    margin-top: 3% ;
+     margin-bottom: 10%;
+}
+ #fname{
+     width: 250px;
+     height: 35px;
+ }
+ #lname{
+     width: 250px;
+     height: 35px;
+ }
+#mname{
+    width: 250px;
+    height: 35px;
+}
+ #email{
+    width: 250px;
+    height: 35px;
+}
+ #password{
+     width: 250px;
+     height: 35px;
+ }
+#pass {
+    width: 250px;
+    height: 35px;
+}
+.required{
+    color: #f05179;
+}
+#back{
+    color: #2a2730;
+}
+#back:hover{
+    color: #f05179;
+}
+.button{
+    color: #F6F7EB;
+    margin: -3% 0 0 0;
+    float: right;
+    border-radius: 5px;
+    background-color: #f05179;
+    width: 70px;
+    height: 30px;
+}
+.button:hover{
+    background-color: #2aabd2;
 }

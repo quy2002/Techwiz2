@@ -7,37 +7,66 @@
     <link rel="stylesheet" href="../lib/bootstrap 3.4.1/css/bootstrap.css">
     <link rel="stylesheet" href="../fontawesome5.15.1/css/all.css">
     <link rel="stylesheet" href="css/createAccount.css">
-
 </head>
 <body>
 <div class="container">
     <p>Home&ensp;/&ensp;Registration</p>
     <b>CREATE AN ACCOUNT</b>
-    <h2>PERSONAL INFORMATION</h2>
     <div class="full-box">
-    <div class="row">
+        <h2>PERSONAL INFORMATION</h2>
+        <div class="row">
        <div class="col-md-3">
            <div class="first-name">
-               <label for="fname"> <em>*</em> First name</label><br/>
+               <label style="font-weight: 500" for="fname"> <em>*</em> First name</label><br/>
                <input type="text" id="fname" name="fname"><br/>
            </div>
        </div>
         <div class="col-md-3">
             <div class="m-name">
-                <label for="mname"> <em>*</em> Middle Name/Initial</label><br/>
+                <label style="font-weight: 500" for="mname"> <em>*</em> Middle Name/Initial</label><br/>
                 <input type="text" id="mname" name="mname"><br/>
             </div>
         </div>
         <div class="col-md-3">
-            <div class="last-name">
-                <label for="lname"> <em>*</em> Last name</label><br/>
+                <label style="font-weight: 500" for="email"> <em>*</em> Email</label><br/>
+                <input type="text" id="email" name="email">
+        </div>
+            <br/>
+        </div>
+        <div class="lname">
+            <div class="lname">
+                <label style="font-weight: 500" for="lname"> <em>*</em> Last Name</label><br/>
                 <input type="text" id="lname" name="lname">
             </div>
         </div>
-        <div class="col-md-3">
 
+        <h3><input type="checkbox" name="checkbox" value="Sign Up">Sign Up for Newsletter</h3>
+
+    </div>
+    <div class="full-box">
+        <h2>LOGIN INFORMATION</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="">
+                    <label style="font-weight: 500" for="pass"> <em>*</em> Confirm Password</label><br/>
+                    <input type="password" id="password" name="pass"><br/>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="pass">
+                    <label style="font-weight: 500" for="pass"> <em>*</em> Password</label><br/>
+                    <input type="password" id="pass" name="pass"><br/>
+                </div>
+            </div>
         </div>
     </div>
+    <div class="required">* Required Fields</div>
+    <a id="back" href="" > << Back </a>
+
+    <div class="submit">
+    <button type="submit" title="submit" class="button">
+        <span>Submit</span>
+    </button>
     </div>
 </div>
 </body>
