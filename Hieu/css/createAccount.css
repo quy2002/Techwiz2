@@ -1,0 +1,25 @@
+.container p{
+    font-size: 13px;
+}
+.container b{
+    font-size: 20px;
+}
+.full-box{
+    border: 1px solid #000000;
+}
+h2{
+    text-align: center;
+    width: 19%;
+    height: auto;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: white;
+}
+.col-md-12{
+    width: 100%;
+    border:1px solid #d0cbcb;
+}
+em{
+    color: red;
+}

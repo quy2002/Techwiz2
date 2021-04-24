@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container b{
+    font-size: 20px;
+}
+.box-create-account{
+    font-size: 13px;
+}
+
+.col-md-6{
+    margin: 3% 0 0 0;
+}
+.newcustomer b{
+    margin: 2% 0 0 3%;
+    font-size: 15px;
+}
+.newcustomer p{
+    margin: 2% 0 0 3% ;
+    font-size: 13px;
+}
+
+.newcustomer{
+    height:270px;
+    padding: 2% 0 0 0;
+    border:0.1px solid #d0cbcb;
+}
+.account{
+    margin: 0 0 0 3%;
+}
+.account #email{
+    height: 30px;
+}
+.account #password{
+    height: 30px;
+}
+label{
+    margin: 1% 0 0 0;
+    padding: 2% 0 0 0;
+}
+.full-box{
+    height: 50%;
+}
+.create-an-account{
+    margin: 2% 0 0 0;
+    float: right;
+    width: 30%;
+    height:30px;
+    font-size: 13px;
+}
+.create-an-account button:hover{
+    background-color: #2aabd2;
+}
+
+.button{
+    border-radius: 3px;
+    background-color:#f05179;
+    height: 30px;
+    width: 100%;
+    color: #F6F7EB;
+}
+.required{
+    margin: 3% 0 0 0;
+    color: #fe6d4c;
+}
+.button-set{
+    margin: 2% 0 0 0;
+}
+.float-left{
+    float: left;
+    color:#f05179;
+}
+.float-left :hover{
+    background-color: #2aabd2;
+}
+
+.button-set button{
+
+    width: 12%;
+    height: 30px;
+    background-color: #f05179;
+    border-radius: 3px;
+    color: #F6F7EB;
+    float: right;
+}
+.button-set button:hover{
+    background-color: #2aabd2;
+}
