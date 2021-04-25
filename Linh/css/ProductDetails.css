@@ -230,6 +230,32 @@
     padding: 14px;
     text-align: center;
 }
+
+.choose-info-product {
+    max-width: 850px;
+    height: 54px;
+    overflow: hidden;
+    margin-left: 26%;
+    margin-top: 50%;
+    border-bottom: 2px solid #cbc9c9;
+    margin-bottom: 3em;
+}
+.choose-info-product ul li {
+    cursor: pointer;
+    padding: 12px;
+    list-style: none;
+    float: left;
+    color: #0f0f0f;
+    padding-right: 2rem;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.choose-info-product ul li:hover {
+    border: 2px solid #cbc9c9;
+}
+
 .list-products{
     border: 1px solid #34c5ca;
     background-color: #34c5ca;

@@ -200,7 +200,48 @@
             <div class="box-demo-prode">
                 <div class="container">
                     <div class="list-info-pd">
-                        <div class="description-pd">
+                        <div class="choose-info-product">
+                            <ul>
+                                <li id="choose-description">Description</li>
+                                <li id="choose-tags">Tags</li>
+                                <li id="choose-review">Review</li>
+                            </ul>
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
+                            <script type="text/javascript">
+                                $(document).ready(function(){
+                                    $("#tags-product").hide();
+                                    $("#review-product").hide();
+                                    document.getElementById("choose-description").style.border = '2px solid #cbc9c9';
+                                    $("#choose-description").click(function(){
+                                        $("#description-product").show();
+                                        $("#tags-product").hide();
+                                        $("#review-product").hide();
+                                        document.getElementById("choose-description").style.border = '2px solid #cbc9c9';
+                                        document.getElementById("choose-review").style.border = 'none';
+                                        document.getElementById("choose-tags").style.border = 'none';
+                                    });
+                                    $("#choose-review").click(function(){
+                                        $("#description-product").hide();
+                                        $("#tags-product").hide();
+                                        $("#review-product").show();
+                                        document.getElementById("choose-review").style.border = '2px solid #cbc9c9';
+                                        document.getElementById("choose-tags").style.border = 'none';
+                                        document.getElementById("choose-description").style.border = 'none';
+
+                                    });
+
+                                    $("#choose-tags").click(function(){
+                                        $("#description-product").hide();
+                                        $("#tags-product").show();
+                                        $("#review-product").hide();
+                                        document.getElementById("choose-tags").style.border = '2px solid #cbc9c9';
+                                        document.getElementById("choose-description").style.border = 'none';
+                                        document.getElementById("choose-review").style.border = 'none';
+                                    });
+                                });
+                            </script>
+                        </div>
+                        <div class="description-pd" id="description-product">
                             <a href="#">DESCRIPTION</a>
                             <p>Ut metus. Maecenas dapibus nibh eu est. Proin faucibus pharetra nibh. Integer aliquet tellus in felis. Quisque mi pede, imperdiet a, dapibus vel, bibendum rhoncus, nulla. Sed eu velit. Maecenas molestie, ipsum nec nonummy mattis, ipsum lectus imperdiet nibh, sit amet accumsan nunc nunc et lorem. Quisque at augue. Donec elit ligula, pellentesque id, feugiat sed, malesuada a, turpis. Donec nunc quam, commodo ut, venenatis ut, feugiat quis, tortor. Nunc id risus vestibulum turpis facilisis fringilla. Pellentesque turpis ipsum, ultrices at, consequat sit amet, sollicitudin at, pede. Suspendisse potenti. Fusce eu ante sit amet lacus cursus tempor. Donec bibendum, metus nec tristique mollis, metus felis pellentesque sapien, eu mattis turpis lorem quis quam. In ligula nibh, varius quis, elementum sed, pellentesque vel, lectus. Praesent erat orci, hendrerit bibendum, tristique et, consectetuer eget, elit. Mauris vel mi at dui commodo elementum.
 
@@ -208,7 +249,7 @@
 
                                 Fusce auctor, metus eu ultricies vulputate, sapien nibh faucibus ligula, eget sollicitudin augue risus et dolor. Aenean pellentesque, tortor in cursus mattis, ante diam malesuada ligula, ac vestibulum neque turpis ut enim. Cras ornare. Proin ac nisi. Praesent laoreet ante tempor urna. In imperdiet. Nam ut metus et orci fermentum nonummy. Cras vel nunc. Donec feugiat neque eget purus. Quisque rhoncus. Phasellus tempus massa aliquet urna. Integer fringilla quam eget dolor. Curabitur mattis. Aliquam ac lacus. In congue, odio ut tristique adipiscing, diam leo fermentum ipsum, nec sollicitudin dui quam et tortor. Proin id neque ac pede egestas lacinia. Curabitur non odio.</p>
                         </div>
-                        <div class="tags-pd">
+                        <div class="tags-pd" id="tags-product">
                             <a href="#">TAGS</a>
                             <h4>OTHER PEOPLE MARKED THIS PRODUCT WITH THESE TAGS:</h4>
                             <a href="#">Red (1)</a>
@@ -217,7 +258,7 @@
                             <button style="border:1px solid  #f05179; color: white;background-color: #f05179;width: 80px;height: 40px">ADD TAGS</button>
                             <p style="color: #808890;">Use spaces to separate tags. Use single quotes (') for phrases.</p>
                         </div>
-                        <div class="box-review-pd">
+                        <div class="box-review-pd" id="review-product">
                             <a href="#">REVIEW</a>
                         </div>
                     </div>
