@@ -11,10 +11,14 @@ body{
     background-image: url("../ImgHieu/Search/Quanao.jpg");
 }
 .seach{
-    margin-top: 15%;
+    margin-top: 10%;
 }
+
 .mail{
     width: auto;
+}
+.mail #button:hover{
+    background-color: #f05179;
 }
 #mail{
     margin: auto;
