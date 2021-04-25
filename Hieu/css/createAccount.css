@@ -89,4 +89,16 @@ em{
 }
 .button:hover{
     background-color: #2aabd2;
+} .full-box #passwordforgot{
+    margin: -5% 0 0 1% ;
+    text-align: center;
+    width: 24%;
+    height: auto;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: white;
 }
+  .full-box #enterpass{
+      margin: 2% 0 0 2%;
+  }
