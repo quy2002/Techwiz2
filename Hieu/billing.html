@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BILLING INFORMATION</title>
+    <link rel="stylesheet" href="css/billing.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../lib/bootstrap%203.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="../lib/icon_fontawesome/css/all.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="tag">
+            <i class="fas fa-tag"></i>&ensp;&ensp;Have a coupon?Click here to enter your code
+            </div>
+            <h3>BILLING INFORMATION</h3>
+            <div class="row">
+            <div class="col-md-6">
+                <label style="font-weight:500" >  <em>*</em> First Name<br/>
+                    <input style="border: 1px solid #EAE8E8" type="text"  name="fname" required></label>
+            </div>
+            <div class="col-md-6">
+                <label  style="font-weight:500" > <em>*</em> Last Name<br/>
+                    <input style="border: 1px solid #EAE8E8" type="text" name="fname" required></label>
+            </div>
+                <div class="col-md-12">
+                    <label  style="font-weight:500" > <em>*</em> Country<br/>
+                        <input style="border: 1px solid #EAE8E8" type="text" name="fname" required></label>
+                </div>
+                <div class="col-md-12">
+                    <label  style="font-weight:500" > <em>*</em> Shipping Address<br/>
+                        <input style="border: 1px solid #EAE8E8" type="text" name="fname" required></label>
+                </div>
+                <div class="col-md-12">
+                    <label  style="font-weight:500" > <em>*</em> Town / City<br/>
+                        <input style="border: 1px solid #EAE8E8" type="text" name="fname" required></label>
+                </div>
+                <div class="col-md-6" id="satte">
+                    <label  style="font-weight:500" > <em>*</em> State<br/>
+                        <input style="border: 1px solid #EAE8E8" type="text" name="fname" required></label>
+                </div>
+                <div class="col-md-6" id="zip">
+                    <label  style="font-weight:500" > <em>*</em> Postcode / Zip<br/>
+                        <input style="border: 1px solid #EAE8E8" type="text" name="fname" pattern="[0-9]*" required></label>
+                </div>
+                <div class="col-md-6" id="phone">
+                    <label  style="font-weight:500" > <em>*</em> Phone<br/>
+                        <input style="border: 1px solid #EAE8E8" type="tel" name="fname" required></label>
+                </div>
+                <div class="col-md-6" id="mail">
+                    <label  style="font-weight:500" > <em>*</em> Email<br/>
+                        <input style="border: 1px solid #EAE8E8" type="email" name="fname" required></label>
+                </div>
+                <div class="col-md-12">
+                    <label  style="font-weight:500" >Oder Note<br/>
+                        <input id="note" style="border: 1px solid #EAE8E8" type="text" name="fname" required></label>
+                </div>
+            </div>
+            </div>
+        <div class="col-md-4">
+            <div class="your-order-box">
+                <h3>Your Order</h3>
+                <div class="list-order">
+                    <div class="title-list">
+                        <span class="product-title">Products</span>
+                        <span class="total-title">Total</span>
+                    </div>
+                    <div class="product-price">
+                        <p class="item-box">
+                            <span class="name-prod">01. T-shirt baby</span>
+                            <span class="price-prod">$ 300.0</span>
+                        </p>
+                        <p class="item-box">
+                            <span class="name-prod">02. Baby swim pants</span>
+                            <span class="price-prod">$ 170.0</span>
+                        </p>
+                        <p class="item-box">
+                            <span class="name-prod">03. Fashionable hats for babies</span>
+                            <span class="price-prod">$ 170.0</span>
+                        </p>
+                        <p class="item-box">
+                            <span class="name-prod">04. Baby sunglasses</span>
+                            <span class="price-prod">$ 110.0</span>
+                        </p>
+                    </div>
+                    <div class="subtotal-box">
+                        <div class="subtotal-price">
+                            <span class="subtotal-title">Subtotal</span>
+                            <span class="total-price">$750.99</span>
+                        </div>
+                        <div class="subtotal-price">
+                            <span class="subtotal-title">Total</span>
+                            <span class="total-price">$750.99</span>
+                        </div>
+                    </div>
+                    <div class="note-checkout-box">
+                        <input type="checkbox" />
+                        <span>Create an account?</span>
+                        <input type="checkbox" required/>
+                        <span>Check Payment</span><br />
+                        <input type="checkbox" required/>
+                        <span>Paypal</span>
+                    </div>
+                    <div class="place-order">
+                        <a class="send-button" href="#">Send</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

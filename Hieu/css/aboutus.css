@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: auto;
+    font-size: 17px;
+}
+#go{
+    margin-top: -61%;
+}
+#augusta{
+    font-size: 21px;
+    margin-top: 1%;
+}
+.main{
+    margin-top: 8%;
+}
+.img1{
+    width: 100%;
+}
+.title{
+    padding-top: 1%;
+    padding-bottom: 4%;
+    width: auto;
+    background-color: #f3f2ee;
+}
+.grey{
+    color: #b7b8b8;
+}
+#quote{
+    color: #e53637;
+}
+.part2{
+    height: 700px;
+    background-color: #f3f2ee;
+    margin-top: 50px;
+}
+.img-left{
+    width: 60px;
+    height: 60px;
+    border-radius: 42px;
+    margin-top: 4%;
+    margin-left: -100%;
+}
+.text-left{
+    margin-top: -41%;
+    margin-left: 33%;
+    width: 100%;
+}
+.part2 .container{
+    width: 100%;
+}
+#color-p2{
+    color: #e53637;
+}
+
+.part2-left{
+    text-align: center;
+    font-size: 21px;
+    padding: 130px 150px 175px;
+}
+.fashion{
+    font-size: 19px;
+    color: #b7b8b8;
+    margin-top: 3%;
+}
+.augusta{
+    font-size: 19px;
+}
+.part2-right{
+    margin: 7% 0 0 0 ;
+    background-position: top center;
+    height: 600px;
+    background-image: url("../ImgHieu/Search/langquevn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.col-md-6.p-0 {
+    padding: 0!important;
+}
+
+.slogan{
+    display: inline-block;
+}
+#img2{
+    width: 60px;
+    height: 60px;
+    border-radius: 42px;
+    margin-top: 7%;
+    margin-left: -12%;
+}
+#our1{
+    color: #3d3d3d;
+    float: right;
+    margin-top: -24%;
+    margin-right: 28%;
+    width: 25%;
+}
+#our2{
+    color: #3d3d3d;
+    float: right;
+    margin-top: -24%;
+    margin-right: 42%;
+    width: 25%;
+}
+#our3{
+    color: #3d3d3d;
+    float: right;
+    margin-top: -24%;
+    margin-right: 26%;
+    width: 25%;
+}
+
+#our4{
+    color: #3d3d3d;
+    float: right;
+    margin-top: -24%;
+    margin-right: 20%;
+    width: 25%;
+}
+#text-left{
+    text-align: center;
+    font-size: 18px;
+    margin-top: -10%;
+    margin-left: -26%;
+    width: 95%;
+}
+.adjust1{
+    text-align: center;
+}
+.adjust3{
+    text-align: center;
+    margin-bottom: 6%;
+}
+.adjust2{
+    text-align: center;
+}
+.part3 .h1{
+    color: #111111;
+}
+.about{
+    margin-top: 6%;
+}
+.number{
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+.designer{
+    margin-top:9%;
+}
+.zoom{
+    font-size: 6rem;
+}
