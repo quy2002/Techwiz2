@@ -1,18 +1,17 @@
-*{
-    font-size: 14px;
-    background-color: #333;
-}
-p{
-    margin: 25px 50px 75px 100px;
-    overflow-x: hidden;
-    position: relative;
-    color: #666;
-    line-height: 165%;
-    font-size: 12px;
+.footer{
+background-color: #000000;
+    padding-top: 2%;
 }
 .cole-footer{
     color: white;
     font-size: 15px;
+}
+h4{
+    margin-bottom: 14px;
+}
+p{
+    margin-bottom: 10px;
+    color: #666666;
 }
 input{
     color: black;
