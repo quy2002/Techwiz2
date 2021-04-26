@@ -15,7 +15,7 @@ body{
     margin-top: 1%;
 }
 .main{
-    margin-top: 8%;
+    margin-top: -2%;
 }
 .img1{
     width: 100%;
@@ -73,7 +73,7 @@ body{
     margin: 7% 0 0 0 ;
     background-position: top center;
     height: 600px;
-    background-image: url("../ImgHieu/Search/langquevn.jpg");
+    background-image: url("../ImgHieu/kid.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
