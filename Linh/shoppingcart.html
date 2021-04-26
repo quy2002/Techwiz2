@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>SHOPPING CART</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../lib/icon_fontawesome/css/all.css">
+    <link rel="stylesheet" href="../lib/bootstrap 3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="css/shoppingcart.css">
+</head>
+
+<body>
+<div class="box-shopcart">
+    <div class="container">
+        <h4 style="font-weight: bold">SHOPPING CART</h4>
+
+        <table class="table">
+            <tr>
+                <th></th>
+                <th style="color: #666666">PRODUCT NAME</th>
+                <th style="color: #666666">UNIT PRICE</th>
+                <th style="color: #666666">QUANTITY</th>
+                <th style="color: #666666">SUBTOTAL</th>
+            </tr>
+            <tr>
+                <td><img src="Image/Shoppingcart/shopping-cart.jpg" height="130" width="105"/></td>
+                <td>CFG 05 ARMANI</td>
+                <td>$189.00</td>
+                <td>1</td>
+                <td>$189.00</td>
+            </tr>
+        </table>
+        <div class="box-button">
+            <div class="but-continue">
+                <button class="but-apply" style="border-top:1px solid #f5f5f5" >
+                    <a href="Home.html" style="color: white;text-decoration: none"> CONTINUE SHOPPING</a>
+                </button>
+            </div>
+            <div class="but-update">
+                <button class="but-apply" style="border-top:1px solid #f5f5f5" >
+                    <a href="Home.html" style="color: white;text-decoration: none"> UPDATE SHOPPING CART</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="box-check-pro">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box-info-tax">
+                        <h4 style="font-size: 15px;font-weight: 700;letter-spacing: 1px">ESTIMATE SHIPPING AND TAX</h4>
+                        <p>Enter your destination to get a shipping estimate.</p>
+                        <p>* Country</p>
+                        <form action="/action_page.php">
+                            <select name="country" id="country" style="padding: 10px">
+                                <option value="us">United States</option>
+                                <option value="vn">VietNam</option>
+                                <option value="cd">Canada</option>
+                                <option value="ge">Germany</option>
+                                <option value="cn">New Zeadland</option>
+                                <option value="jp">Japan</option>
+                            </select>
+                            <p>State/Province</p>
+                            <select name="state" id="state" style="padding: 10px">
+                                <option value="select state">Please select region, state or province</option>
+                                <option value="Colombia">Colombia</option>
+                                <option value="Indiana">Indiana</option>
+                                <option value="Alaska">Alaska</option>
+                                <option value="Alaska">Alabama</option>
+                                <option value="Alaska">Maine</option>
+                                <option value="Alaska">Texas</option>
+                            </select>
+                        </form>
+                        <p>Zip/Postal Code</p>
+                        <input type="text" style="border: 1px solid #e5e5e5;padding: 10px;margin-bottom: 10px;width: 95%"><br>
+                        <button class="but-apply">GET A QUOTE</button>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="box-discount-codes">
+                        <h4 style="font-size: 15px;font-weight: 700;letter-spacing: 1px">DISCOUNT CODES</h4>
+                        <p>Enter your coupon code if you have one.</p>
+                        <input type="text" style="border: 1px solid #e5e5e5;padding: 10px;margin-bottom: 10px;width: 95%"><br>
+                        <button class="but-apply">APPLY COUPON</button>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="box-subtotal">
+                        <h5>SUBTOTAL &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp $2,699.90  </h5>
+                        <h4 style="font-size: 15px;font-weight: 700;letter-spacing: 1px">GRAND TOTAL  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    $2,699.90</h4>
+                        <hr>
+                        <button class="but-apply"><a href="../Hieu/billing.html" style="color: white;text-decoration: none">PROCEED TO CHECKOUT</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

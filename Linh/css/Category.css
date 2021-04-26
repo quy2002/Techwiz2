@@ -1,0 +1,31 @@
+.box-filter-product{
+    border: 1px solid #f5f5f5;
+    margin-top: 20px;
+}
+.box-filter{
+    padding: 10px;
+}
+.title-filter-cate{
+    border: 1px solid #e5e5e5;
+    padding-left: 23px;
+    margin-right: -5px;
+    margin-top: 10px;
+    padding: 4px;
+}
+.choose-tags{
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: 600ms;
+    margin-top: 10px;
+}
+.lists-filter{
+    margin-left: auto;
+}
+.img-product-home{
+    margin-top: 13px;
+}
+.home-image-featured{
+    border: 0.5px solid #f5f5f5;
+    margin-top: 33px;
+}
