@@ -17,96 +17,135 @@
             </div>
             <h3>BILLING INFORMATION</h3>
             <div class="row">
-            <div class="col-md-6">
-                <label style="font-weight:500" >  <em>*</em> First Name<br/>
-                    <input style="border: 1px solid #EAE8E8" type="text"  name="fname" required></label>
+            <div class="col-md-4">
+                <label style="font-weight: 500" for="fname"> <em>*</em> First name</label><br/>
+                <input type="text" id="fname" name="fname" required><br/>
             </div>
-            <div class="col-md-6">
-                <label  style="font-weight:500" > <em>*</em> Last Name<br/>
-                    <input style="border: 1px solid #EAE8E8" type="text" name="fname" required></label>
+                <div class="col-md-4">
+                    <label style="font-weight: 500" for="middle">Middle Name/Initial</label><br/>
+                    <input type="text" id="middle" name="fname"><br/>
+                </div>
+                <div class="col-md-4"></div>
             </div>
-                <div class="col-md-12">
-                    <label  style="font-weight:500" > <em>*</em> Country<br/>
-                        <input style="border: 1px solid #EAE8E8" type="text" name="fname" required></label>
-                </div>
-                <div class="col-md-12">
-                    <label  style="font-weight:500" > <em>*</em> Shipping Address<br/>
-                        <input style="border: 1px solid #EAE8E8" type="text" name="fname" required></label>
-                </div>
-                <div class="col-md-12">
-                    <label  style="font-weight:500" > <em>*</em> Town / City<br/>
-                        <input style="border: 1px solid #EAE8E8" type="text" name="fname" required></label>
-                </div>
-                <div class="col-md-6" id="satte">
-                    <label  style="font-weight:500" > <em>*</em> State<br/>
-                        <input style="border: 1px solid #EAE8E8" type="text" name="fname" required></label>
-                </div>
-                <div class="col-md-6" id="zip">
-                    <label  style="font-weight:500" > <em>*</em> Postcode / Zip<br/>
-                        <input style="border: 1px solid #EAE8E8" type="text" name="fname" pattern="[0-9]*" required></label>
-                </div>
-                <div class="col-md-6" id="phone">
-                    <label  style="font-weight:500" > <em>*</em> Phone<br/>
-                        <input style="border: 1px solid #EAE8E8" type="tel" name="fname" required></label>
-                </div>
-                <div class="col-md-6" id="mail">
-                    <label  style="font-weight:500" > <em>*</em> Email<br/>
-                        <input style="border: 1px solid #EAE8E8" type="email" name="fname" required></label>
-                </div>
-                <div class="col-md-12">
-                    <label  style="font-weight:500" >Oder Note<br/>
-                        <input id="note" style="border: 1px solid #EAE8E8" type="text" name="fname" required></label>
+            <div class="row">
+                <div class="col-md-4">
+                    <label style="font-weight: 500" for="lname"> <em>*</em> Last Name</label><br/>
+                    <input type="text" id="lname" name="fname" required><br/>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <label style="font-weight: 500" for="company"> Company</label><br/>
+                    <input type="text" id="company" name="fname"><br/>
+                </div>
+                <div class="col-md-4">
+                    <label style="font-weight: 500" for="email"> <em>*</em> Email Address</label><br/>
+                    <input type="text" id="email" name="fname"required><br/>
+                </div>
             </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <label style="font-weight: 500" for="address"> <em>*</em> Address</label><br/>
+                    <input type="text" id="address" name="fname"required><br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <label style="font-weight: 500" for="city"> <em>*</em> City</label><br/>
+                    <input type="text" id="city" name="fname" required><br/>
+                </div>
+                <div class="col-md-4">
+                    <label style="font-weight: 500" for="state"> <em>*</em> State/Province</label><br/>
+                    <select name="sate" id="state" required>
+                        <option value="">Please select region, state</option>
+                        <option value="hanoi">Ha Noi</option>
+                        <option value="india">New Delhi</option>
+                        <option value="korea">Seoul</option>
+                        <option value="japan">Tokyo</option>
+                    </select>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label style="font-weight: 500" for="phone"> <em>*</em> Telephone</label><br/>
+                        <input type="tel" id="phone" name="fname" required><br/>
+                    </div>
+                    <div class="col-md-4">
+                        <label style="font-weight: 500" for="country"> <em>*</em> Country</label><br/>
+                        <select name="sate" id="country" required>
+                            <option value="">United States</option>
+                            <option value="hanoi">VietNam</option>
+                            <option value="india">India</option>
+                            <option value="korea">Korea</option>
+                            <option value="japan">Japan</option>
+                        </select>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <label style="font-weight: 500" for="zip"> <em>*</em> Zip / Postcode</label><br/>
+                    <input type="text" id="zip" name="fname" required><br/>
+                </div>
+                <div class="col-md-4">
+                    <label style="font-weight: 500" for="fax"> Fax</label><br/>
+                    <input type="text" id="fax" name="fname"><br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="submit">
+                    <input id="submit" type="submit" value="Submit" href="#">
+                </div>
+            </div>
+    </div>
         <div class="col-md-4">
-            <div class="your-order-box">
-                <h3>Your Order</h3>
-                <div class="list-order">
-                    <div class="title-list">
-                        <span class="product-title">Products</span>
-                        <span class="total-title">Total</span>
+        <div class="your-order-box">
+            <h3>Your Order</h3>
+            <div class="list-order">
+                <div class="title-list">
+                    <span class="product-title">Products</span>
+                    <span class="total-title">Total</span>
+                </div>
+                <div class="product-price">
+                    <p class="item-box">
+                        <span class="name-prod">01. T-shirt baby</span>
+                        <span class="price-prod">$ 300.0</span>
+                    </p>
+                    <p class="item-box">
+                        <span class="name-prod">02. Baby swim pants</span>
+                        <span class="price-prod">$ 170.0</span>
+                    </p>
+                    <p class="item-box">
+                        <span class="name-prod">03. Fashionable hats for babies</span>
+                        <span class="price-prod">$ 170.0</span>
+                    </p>
+                    <p class="item-box">
+                        <span class="name-prod">04. Baby sunglasses</span>
+                        <span class="price-prod">$ 110.0</span>
+                    </p>
+                </div>
+                <div class="subtotal-box">
+                    <div class="subtotal-price">
+                        <span class="subtotal-title">Subtotal</span>
+                        <span class="total-price">$750.99</span>
                     </div>
-                    <div class="product-price">
-                        <p class="item-box">
-                            <span class="name-prod">01. T-shirt baby</span>
-                            <span class="price-prod">$ 300.0</span>
-                        </p>
-                        <p class="item-box">
-                            <span class="name-prod">02. Baby swim pants</span>
-                            <span class="price-prod">$ 170.0</span>
-                        </p>
-                        <p class="item-box">
-                            <span class="name-prod">03. Fashionable hats for babies</span>
-                            <span class="price-prod">$ 170.0</span>
-                        </p>
-                        <p class="item-box">
-                            <span class="name-prod">04. Baby sunglasses</span>
-                            <span class="price-prod">$ 110.0</span>
-                        </p>
-                    </div>
-                    <div class="subtotal-box">
-                        <div class="subtotal-price">
-                            <span class="subtotal-title">Subtotal</span>
-                            <span class="total-price">$750.99</span>
-                        </div>
-                        <div class="subtotal-price">
-                            <span class="subtotal-title">Total</span>
-                            <span class="total-price">$750.99</span>
-                        </div>
-                    </div>
-                    <div class="note-checkout-box">
-                        <input type="checkbox" />
-                        <span>Create an account?</span>
-                        <input type="checkbox" required/>
-                        <span>Check Payment</span><br />
-                        <input type="checkbox" required/>
-                        <span>Paypal</span>
-                    </div>
-                    <div class="place-order">
-                        <a class="send-button" href="#">Send</a>
+                    <div class="subtotal-price">
+                        <span class="subtotal-title">Total</span>
+                        <span class="total-price">$750.99</span>
                     </div>
                 </div>
+                <div class="note-checkout-box">
+                    <input type="checkbox" />
+                    <span>Create an account?</span>
+                    <input type="checkbox" required/>
+                    <span>Check Payment</span><br />
+                    <input type="checkbox" required/>
+                    <span>Paypal</span>
+                </div>
+                <div class="place-order">
+                    <a class="send-button" href="#">Send</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
