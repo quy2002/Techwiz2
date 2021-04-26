@@ -97,14 +97,15 @@
     font-size: 15px;
     float: right;
     list-style: none;
-    margin-top: -20px;
-    margin-right: 37px;
+    margin-top: -15px;
+    margin-right: 36px;
 }
 .add-to-links li{
     display: inline;
     border: 1px solid #ececec;
-    padding: 5px;
-    margin-right: -1px;
+    padding: 6px;
+    margin-right: -6px;
+    margin-left: 4px;
 }
 .hover-productdetails{
     margin-top: -36px;
