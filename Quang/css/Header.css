@@ -236,7 +236,7 @@ body {
 .shop-menu ul li.topauth a:first-child {
 	margin: 0;
 	padding: 2px 12px 2px 0;
-	background: url(../../../html/html/img/sep1.png) no-repeat right center;
+	background:  no-repeat right center;
 }
 .topmenu {
 	position: relative;
@@ -265,7 +265,6 @@ body {
 	display: block;
 	padding: 11px 10px 11px 38px;
 	font-weight: 500;
-	background: #eff1fa url(../../../html/html/img/bar.png) no-repeat 14px 15px;
 }
 .topmenu .topcatalog .topcatalog-btn:after {
 	position: absolute;
@@ -336,7 +335,6 @@ body {
 	padding: 11px 10px 11px 43px;
 	font-weight: 500;
 	text-align: left;
-	background: #eff1fa url(../../../html/html/img/bar.png) no-repeat 18px 15px;
 	display: none;
 }
 .topmenu .mainmenu-btn:after {
